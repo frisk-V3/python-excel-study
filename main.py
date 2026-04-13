@@ -26,7 +26,7 @@ def create_excel_report():
     for row in data:
         ws.append(row)
 
-    # 書式設定（少し本気感を出します）
+    # 書式設定
     header_font = openpyxl.styles.Font(bold=True, color="FFFFFF")
     header_fill = openpyxl.styles.PatternFill(start_color="4F81BD", end_color="4F81BD", fill_type="solid")
     
